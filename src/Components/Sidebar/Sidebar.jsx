@@ -15,7 +15,7 @@ import ExitToAppOutlinedIcon from '@mui/icons-material/ExitToAppOutlined';
 function Sidebar() {
   return (
     <div className='sidebar'>
-        <div className='top'><span className='logo'>Semih Aksoy</span></div>
+        <div className='top'><span className='logo'>Omer Yurtseven</span></div>
         <hr />
         <div className='center'>
             <ul>
