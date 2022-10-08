@@ -3,10 +3,13 @@ import Chart from '../../Components/chart/Chart'
 import Featured from '../../Components/featured/Featured'
 import Navbar from '../../Components/Navbar/Navbar'
 import Sidebar from '../../Components/Sidebar/Sidebar'
+import List from '../../Components/Table/Table'
+
 import Widget from '../../Components/widget/Widget'
 import "./home.scss"
 
 function Home() {
+  
   return (
     <div className='home'>
       <Sidebar></Sidebar>
@@ -23,6 +26,10 @@ function Home() {
           <Chart/>
           
         </div>
+        <div className="listContainer">
+            <div className="listTitle">Latest Transactions</div>
+            <List/>
+          </div>
       </div>
     </div>
   )

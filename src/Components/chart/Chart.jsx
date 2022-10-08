@@ -26,6 +26,7 @@ const data = [
         name: 'June',
         Total:1700
       },
+      
     
   ];
 
@@ -44,9 +45,9 @@ function Chart() {
         </linearGradient>
         
         </defs>
-        <XAxis dataKey="total" />
-        <YAxis />
-        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" stroke="gray" />
+        
+        <CartesianGrid strokeDasharray="3 3" className="chartGrid" />
         <Tooltip />
         <Area type="monotone" dataKey="Total" stroke="#8884d8" fillOpacity={1} fill="url(#total)" />
        
